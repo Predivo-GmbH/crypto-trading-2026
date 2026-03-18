@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "name": "CRYPTO26 Design Tokens",
+    "version": "1.0.0",
+    "description": "Canonical brand tokens for Crypto Trading 2026 personal dashboard",
+    "themes": ["dark", "light"]
+  },
+  "color": {
+    "bg": {
+      "page": { "dark": "#0C0C0C", "light": "#FAFAFA" },
+      "sidebar": { "dark": "#080808", "light": "#F5F5F5" },
+      "card": { "dark": "#0A0A0A", "light": "#FFFFFF" },
+      "elevated": { "dark": "#141414", "light": "#F0F0F0" },
+      "subtle": { "dark": "#1A1A1A", "light": "#E8E8E8" }
+    },
+    "text": {
+      "primary": { "dark": "#FFFFFF", "light": "#0C0C0C" },
+      "secondary": { "dark": "#8A8A8A", "light": "#6A6A6A" },
+      "muted": { "dark": "#6A6A6A", "light": "#9A9A9A" },
+      "on-accent": { "dark": "#0C0C0C", "light": "#0C0C0C" }
+    },
+    "accent": {
+      "green": { "dark": "#00FF88", "light": "#00CC6A" },
+      "green-20": { "dark": "#00FF8820", "light": "#00CC6A20" },
+      "green-10": { "dark": "#00FF8810", "light": "#00CC6A10" },
+      "green-40": { "dark": "#00FF8840", "light": "#00CC6A40" },
+      "orange": { "dark": "#FF8800", "light": "#E67700" },
+      "orange-20": { "dark": "#FF880020", "light": "#E6770020" },
+      "orange-40": { "dark": "#FF880040", "light": "#E6770040" },
+      "red": { "dark": "#FF4444", "light": "#DC3545" },
+      "red-20": { "dark": "#FF444420", "light": "#DC354520" }
+    },
+    "border": {
+      "default": { "dark": "#2F2F2F", "light": "#E0E0E0" },
+      "light": { "dark": "#3F3F3F", "light": "#D0D0D0" }
+    }
+  },
+  "typography": {
+    "font-family": {
+      "display": "Space Grotesk",
+      "mono": "JetBrains Mono"
+    },
+    "font-size": {
+      "page-title": "42px",
+      "metric": "32px",
+      "section-title": "18px",
+      "logo": "16px",
+      "subtitle": "14px",
+      "body": "13px",
+      "nav": "12px",
+      "label": "11px",
+      "alert": "9px"
+    },
+    "font-weight": {
+      "bold": "700",
+      "semibold": "600",
+      "medium": "500",
+      "normal": "400"
+    },
+    "letter-spacing": {
+      "tight": "-1px",
+      "normal": "0px",
+      "wide": "0.5px",
+      "wider": "1px"
+    },
+    "line-height": {
+      "tight": "1.0",
+      "normal": "1.5"
+    }
+  },
+  "spacing": {
+    "base": "4px",
+    "scale": {
+      "2xs": "2px",
+      "xs": "4px",
+      "sm": "6px",
+      "md": "8px",
+      "lg": "10px",
+      "xl": "12px",
+      "2xl": "16px",
+      "3xl": "20px",
+      "4xl": "24px",
+      "5xl": "32px",
+      "6xl": "40px",
+      "7xl": "48px",
+      "8xl": "64px"
+    }
+  },
+  "radius": {
+    "none": "0px",
+    "note": "All elements use 0px radius — terminal aesthetic"
+  },
+  "shadow": {
+    "note": "No shadows used — borders and color differentiation define hierarchy"
+  },
+  "breakpoints": {
+    "mobile": "375px",
+    "tablet": "768px",
+    "desktop": "1440px",
+    "wide": "1920px"
+  },
+  "layout": {
+    "sidebar-width": "240px",
+    "content-padding": { "vertical": "32px", "horizontal": "40px" },
+    "section-gap": "24px",
+    "card-gap": "16px",
+    "mobile-padding": "16px"
+  },
+  "icons": {
+    "family": "Lucide",
+    "sizes": {
+      "nav": "16px",
+      "button": "14px",
+      "status": "12px",
+      "placeholder": "28px"
+    }
+  }
+}
